@@ -2953,7 +2953,7 @@ function day_of_year(time)
   call get_date(time,year,month,day,hour,minute,second)
   t = time-set_date(year,1,1,0,0,0)
   day_of_year = t%days + 1
-end
+end function
 
 ! START OF days_in_year BLOCK
 ! <FUNCTION NAME="days_in_year">

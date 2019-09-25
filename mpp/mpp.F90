@@ -168,9 +168,9 @@ module mpp_mod
 ! </PUBLIC>
 
 ! Define rank(X) for PGI compiler
-#ifdef __PGI
+!#ifdef __PGI
 #define rank(X) size(shape(X))
-#endif
+!#endif
 
 #include <fms_platform.h>
 
